@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "email": "sujith@gmail.com",
+      "username": "sujith",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "username": "ajith",
+      "email": "ajith@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "username": "amal",
+      "email": "amal@gmail.com",
+      "password": "1234",
+      "id": 3
+    }
+  ],
+  "videos": [
+    {
+      "videoId": 1,
+      "title": "Heeriye",
+      "imageUrl": "https://i.ytimg.com/vi/RLzC55ai0eo/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=RLzC55ai0eo",
+      "id": 1
+    },
+    {
+      "videoId": "2",
+      "title": "Kill Trailer",
+      "imageUrl": "https://i.ytimg.com/vi/y2HZqeVeBNc/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/y2HZqeVeBNc?si=PC4667wLg_6_XcEy&autoplay=1",
+      "id": 2
+    },
+    {
+      "videoId": "4",
+      "title": "Vettam Song",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSH_cwxNsY84QwkiOMBGGR9W5feUEVqPpZiQ&s",
+      "videoUrl": "https://www.youtube.com/embed/e7ovVo3ZBtE?si=PC4667wLg_6_XcEy&autoplay=1",
+      "id": 3
+    },
+    {
+      "videoId": "5",
+      "title": "React tutorial",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRjgeUnWuiMnAGNBu2XJFrPv4Ud4IsdKIIcQ&s",
+      "videoUrl": "https://www.youtube.com/embed/Dorf8i6lCuk?si=PC4667wLg_6_XcEy&autoplay=1",
+      "id": 4
+    }
+  ],
+  "category": [
+    {
+      "categoryId": "1",
+      "title": "Music",
+      "videos": [
+        {
+          "videoId": 1,
+          "title": "Heeriye",
+          "imageUrl": "https://i.ytimg.com/vi/RLzC55ai0eo/maxresdefault.jpg",
+          "videoUrl": "https://www.youtube.com/watch?v=RLzC55ai0eo",
+          "id": 1
+        },
+        {
+          "videoId": "4",
+          "title": "Vettam Song",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSH_cwxNsY84QwkiOMBGGR9W5feUEVqPpZiQ&s",
+          "videoUrl": "https://www.youtube.com/embed/e7ovVo3ZBtE?si=PC4667wLg_6_XcEy&autoplay=1",
+          "id": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "categoryId": "2",
+      "title": "Trailers",
+      "videos": [],
+      "id": 2
+    },
+    {
+      "categoryId": "3",
+      "title": "tutorials",
+      "videos": [
+        {
+          "videoId": "5",
+          "title": "React tutorial",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRjgeUnWuiMnAGNBu2XJFrPv4Ud4IsdKIIcQ&s",
+          "videoUrl": "https://www.youtube.com/embed/Dorf8i6lCuk?si=PC4667wLg_6_XcEy&autoplay=1",
+          "id": 4
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "history": [
+    {
+      "videoId": 1,
+      "title": "Heeriye",
+      "url": "https://www.youtube.com/watch?v=RLzC55ai0eo",
+      "datetime": "2024-08-30T06:48:22.131Z",
+      "id": 1
+    },
+    {
+      "videoId": "4",
+      "title": "Vettam Song",
+      "url": "https://www.youtube.com/embed/e7ovVo3ZBtE?si=PC4667wLg_6_XcEy&autoplay=1",
+      "datetime": "2024-09-02T05:44:36.426Z",
+      "id": 2
+    },
+    {
+      "videoId": "5",
+      "title": "React tutorial",
+      "url": "https://www.youtube.com/embed/Dorf8i6lCuk?si=PC4667wLg_6_XcEy&autoplay=1",
+      "datetime": "2024-09-02T07:09:42.845Z",
+      "id": 3
+    }
+  ]
+}
